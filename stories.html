@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="comics.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <title>Kids Comics</title>
+</head>
+ <body>
+   <div class="icons">
+      <a href="homepage.html"><i style="position:absolute;top:5%;left:5%; " class="fas fa-arrow-left"></i></a>
+            <a href="homepage.html"><i style="position:absolute;top:5%;right: 18%; color: #000000;" class="fas fa-home"></i></a>
+            <a href="comics.html"><i style="position:absolute;top:5%;right: 14%; color: #000000;" class="fas fa-book-open"></i></a>
+            <a href="stories.html"><i style="position:absolute;top:5%;right: 10%; color: #000000;"class="fas fa-feather-alt"></i></a>
+            <a href="books.html"><i style="position:absolute;top:5%;right: 6%; color: #000000;"class="fas fa-book"></i></a>
+            <a href="contactus.html"><i style="position:absolute;top:5%;right: 2%; color: #000000;"class="fas fa-envelope"></i></a>
+        </div>
+</body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        header {
+            background-color: #bluee;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin: 0;
+        }
+        .story-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .story {
+            width: 30%; /* Adjust based on desired width */
+            padding: 10px;
+            margin: 10px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .more-stories {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-top: 1px solid #ccc;
+        }
+        .story-link {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .story-link:hover {
+            color: #ffcc00;
+        }
+        .buy-now {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #ffcc00;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .buy-now:hover {
+            background-color: #e6b800;
+        }
+        .icons {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            z-index: 1000; /* Ensure icons are clickable */
+        }
+        .icons a {
+            color: #000;
+            font-size: 24px;
+            text-decoration: none;
+        }
+        .story img {
+    width: 100%; /* Ensure the image fills its container */
+    height: 400px; /* Adjust this value as needed to maintain consistency */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kids Comics Stories</h1>
+    </header>
+    <div class="story-container">
+        <!-- Horizontal grid -->
+        <div class="story">
+            <img src="hideandseek.jpeg" alt="Story 1 Image">
+            <h2>Story Title 1</h2>
+            <p>Description of Story 1</p>
+            <a class="story-link" href="seek.pdf" target="_blank">View Story</a><br>
+            <a class="buy-now" href="books.html">Buy Now</a>
+        </div>
+        <div class="story">
+            <img src="ginger.jpeg" alt="Story 2 Image">
+            <h2>Story Title 2</h2>
+            <p>Description of Story 2</p>
+            <a class="story-link" href="girafee.pdf" target="_blank">View Story</a><br>
+            <a class="buy-now" href="books.html">Buy Now</a>
+        </div>
+        <div class="story">
+            <img src="chores.jpeg" alt="Story 3 Image">
+            <h2>Story Title 3</h2>
+            <p>Description of Story 3</p>
+            <a class="story-link" href="doingmychores.pdf" target="_blank">View Story</a><br>
+            <a class="buy-now" href="books.html">Buy Now</a>
+        </div>
+        <!-- Vertical grid -->
+        <div class="story">
+            <img src="school.jpeg" alt="Story 4 Image">
+            <h2>Story Title 4</h2>
+            <p>Description of Story 4</p>
+            <a class="story-link" href="schooltrip.pdf" target="_blank">View Story</a><br>
+            <a class="buy-now" href="books.html">Buy Now</a>
+        </div>
+        <div class="story">
+            <img src="tooth.jpeg" alt="Story 5 Image">
+            <h2>Story Title 5</h2>
+            <p>Description of Story 5</p>
+            <a class="story-link" href="fairies.pdf" target="_blank">View Story</a><br>
+            <a class="buy-now" href="books.html">Buy Now</a>
+        </div>
+        <div class="story">
+            <img src="story6.jpg" alt="Story 6 Image">
+            <h2>Story Title 6</h2>
+            <p>Description of Story 6</p>
+            <a class="story-link" href="smile1.pdf" target="_blank">View Story</a><br>
+            <a class="buy-now" href="books.html">Buy Now</a>
+        </div>
+        <!-- Bottom section for more stories -->
+        <div class="more-stories">
+            <h2>More stories</h2>
+            <p>Explore more pages for additional comics!</p>
+            <a class="story-link" href="morestories.html">More stories</a>
+        </div>
+    </div>
+</body>
+</html>
